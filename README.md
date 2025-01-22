@@ -90,7 +90,7 @@
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/10.gif" />
+    ![Alt Text]([https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif](https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/10.gif))
 </div>
 
 <br />
