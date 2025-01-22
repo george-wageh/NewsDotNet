@@ -90,7 +90,7 @@
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/10.gif" />
+    <img width="100" height="100" src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/10.gif" />
 </div>
 
 <br />
