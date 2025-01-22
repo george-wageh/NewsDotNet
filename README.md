@@ -160,14 +160,3 @@
 
 <br />
 <br />
-
-<div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/10.png"/>
-</div>
-
-<br />
-<br />
-
-<div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/11.png"/>
-</div>
