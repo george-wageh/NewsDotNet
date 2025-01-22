@@ -72,3 +72,102 @@
   <br />
   o - Delete Highlighted News: Remove articles from the highlighted news section.
 </div>
+
+<br />
+<br />
+
+<div>
+  Disclaimer
+  <br />
+  This project was created solely for educational purposes to enhance my skills in web development and programming using Blazor, .NET Core, Entity Framework, and SQL Server.
+  <br />
+  • Non-Commercial Use: The project was not sold, shared, or used for any commercial or financial gain.
+  <br />
+  • Inspired Design: While the design may resemble a well-known website, it is purely coincidental and used as a reference to practice UI/UX development techniques.
+  <br />
+  • Learning Focus: The primary objective of this project is to explore and learn the technologies and frameworks involved in building a fully functional web application.
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/10.gif" />
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/01.png"/>
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/02.png"/>
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/03.png"/>
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/04.png"/>
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/05.png"/>
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/06.png"/>
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/07.png"/>
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/08.png"/>
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/09.png"/>
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/10.png"/>
+</div>
+
+<br />
+<br />
+
+<div>
+    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/11.png"/>
+</div>
