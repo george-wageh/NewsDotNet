@@ -81,8 +81,6 @@
   <br />
   This project was created solely for educational purposes to enhance my skills in web development and programming using Blazor, .NET Core, Entity Framework, and SQL Server.
   <br />
-  • Non-Commercial Use: The project was not sold, shared, or used for any commercial or financial gain.
-  <br />
   • Inspired Design: While the design may resemble a well-known website, it is purely coincidental and used as a reference to practice UI/UX development techniques.
   <br />
   • Learning Focus: The primary objective of this project is to explore and learn the technologies and frameworks involved in building a fully functional web application.
