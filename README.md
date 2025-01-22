@@ -1,41 +1,74 @@
+<h2>
+    News App
+</h2>
 <div>
-    <div>
-        <h2>
-            News App
-        </h2>
-        <div>
-            This project is a web-based news application developed using Blazor, .NET Core, Entity Framework (EF), and MS SQL Server. The application is designed with two main modules:
-            <br />
-            User Module: For end-users to browse and interact with news articles.
-            <br />
-            Admin Module: For administrators to manage the content and structure of the news platform.
-            <br />
-            <br />
-        </div>
-        <div>
-            Features
-            <br />
-            1. User Module
-            <br />
-            The user module provides a seamless interface for end-users to explore news content. Key functionalities include:
-            <br />
-            • Homepage with Top News:
-            <br />
-            o - Displays the most important and trending news articles on the homepage for quick access.
-            <br />
-            • Search Functionality:
-            <br />
-            o - Users can search for articles using keywords or phrases, making it easy to find specific content.
-            <br />
-            • Category Filtering:
-            <br />
-            o - Users can filter articles based on categories (e.g., Sports, Technology, Politics) to view relevant news.
-            <br />
-            • Detailed Article View:
-            <br />
-            o - Users can click on a news article to view its full content, including images, descriptions, and publication details.
-            <br />
+    This project is a web-based news application developed using Blazor, .NET Core, Entity Framework (EF), and MS SQL Server. The application is designed with two main modules:
+    <br />
+    User Module: For end-users to browse and interact with news articles.
+    <br />
+    Admin Module: For administrators to manage the content and structure of the news platform.
+    <br />
+    <br />
+</div>
+<div>
+    Features
+    <br />
+    1. User Module
+    <br />
+    The user module provides a seamless interface for end-users to explore news content. Key functionalities include:
+    <br />
+    • Homepage with Top News:
+    <br />
+    o - Displays the most important and trending news articles on the homepage for quick access.
+    <br />
+    • Search Functionality:
+    <br />
+    o - Users can search for articles using keywords or phrases, making it easy to find specific content.
+    <br />
+    • Category Filtering:
+    <br />
+    o - Users can filter articles based on categories (e.g., Sports, Technology, Politics) to view relevant news.
+    <br />
+    • Detailed Article View:
+    <br />
+    o - Users can click on a news article to view its full content, including images, descriptions, and publication details.
+    <br />
 
-        </div>
-    </div>
+</div>
+
+<br />
+<br />
+
+<div>
+  2. Admin Module
+  <br />
+  The admin module empowers administrators to manage the content and structure of the application effectively. Key functionalities include:
+  <br />
+  • News Management:
+  <br />
+  o - Add News: Create new news articles with all necessary details such as title, content, category, and images.
+  <br />
+  o - Update News: Edit existing news articles to correct or update their content.
+  <br />
+  o - Delete News: Remove outdated or incorrect articles from the platform.
+  <br />
+  • Category Management:
+  <br />
+  o - Add Categories: Introduce new categories to classify news articles.
+  <br />
+  o - Edit Categories: Update category names or descriptions as needed.
+  <br />
+  o - Delete Categories: Remove categories no longer in use.
+  <br />
+  o - Reorder Categories: Change the priority order of categories to influence their display for users.
+  <br />
+  • Highlighted News Management:
+  <br />
+  o - Add Highlighted News: Mark specific articles as important to feature prominently.
+  <br />
+  o - Update Highlighted News: Modify the list of highlighted articles as priorities change.
+  <br />
+  o - Reorder Highlighted News: Adjust the sequence of highlighted news to control their visibility.
+  <br />
+  o - Delete Highlighted News: Remove articles from the highlighted news section.
 </div>
