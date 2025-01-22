@@ -1,0 +1,34 @@
+.NewNewsSectionContainer[b-kwhoibjv5v] {
+    border: 1px #2a00f4  solid;
+    margin-top: 4px;
+}
+
+.NewNewsSectionHead[b-kwhoibjv5v] {
+    font-family: 'Droid Arabic Kufi', Tahoma;
+    font-size: 12px;
+    color: #FFF;
+    display: block;
+    font-weight: bold;
+    background: #1d1858ab;
+    margin: 0px;
+    padding: 6px 10px;
+    border-right: 10px solid #50076380;
+}
+
+
+.NewNewsSectionImg[b-kwhoibjv5v] {
+    width: 225px;
+    height: 130px;
+    object-fit: contain;
+    border-left: 1px #000000 solid;
+}
+
+.NewNewsSectionTitle[b-kwhoibjv5v] {
+    font-family: 'Droid Arabic Kufi', Tahoma;
+    color: #000000;
+    text-align: right;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px;
+    width:100%;
+}

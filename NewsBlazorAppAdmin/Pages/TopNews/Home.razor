@@ -1,0 +1,6 @@
+﻿@page "/TopNews"
+<h3>صفحه اهم الاخبار</h3>
+@if (news != null)
+{
+    <NewsComponent News="news" OnDelete="OnDeleteTop15" OnSetDown="OnDownNews" OnSetUp="OnUpNews"></NewsComponent>
+}

@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\1fda0f22-932f-41cb-8ff6-0f196e81f833.png",
+      "PackagePath": "staticwebassets\\images\\news\\1fda0f22-932f-41cb-8ff6-0f196e81f833.png"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\2785ad97-bc8b-4ddf-b73f-f4aaef8a380d.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\2785ad97-bc8b-4ddf-b73f-f4aaef8a380d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\29c653e0-1b25-4938-841a-b441121d8083.png",
+      "PackagePath": "staticwebassets\\images\\news\\29c653e0-1b25-4938-841a-b441121d8083.png"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\306f6e46-c0fd-455f-97ed-5c934a0223fa.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\306f6e46-c0fd-455f-97ed-5c934a0223fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\3564884f-bbdb-42f8-912f-f68a3f7227ff.png",
+      "PackagePath": "staticwebassets\\images\\news\\3564884f-bbdb-42f8-912f-f68a3f7227ff.png"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\50004ce6-8b12-4c62-a85d-57dbdce7df15.png",
+      "PackagePath": "staticwebassets\\images\\news\\50004ce6-8b12-4c62-a85d-57dbdce7df15.png"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\704b11ad-6a02-4a4d-b4c3-5124b15ca459.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\704b11ad-6a02-4a4d-b4c3-5124b15ca459.jpg"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\87df282c-e890-4ec0-b6e8-8644d40aaff2.png",
+      "PackagePath": "staticwebassets\\images\\news\\87df282c-e890-4ec0-b6e8-8644d40aaff2.png"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\be55b900-54ef-49fe-a684-7a902abb5e92.png",
+      "PackagePath": "staticwebassets\\images\\news\\be55b900-54ef-49fe-a684-7a902abb5e92.png"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\c2c82965-5a14-4b80-b188-492235399336.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\c2c82965-5a14-4b80-b188-492235399336.jpg"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\d092127e-b239-4360-8e01-8726571e5583.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\d092127e-b239-4360-8e01-8726571e5583.jpg"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\da17d271-bebe-4a43-ac70-0fa8ea1f6edb.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\da17d271-bebe-4a43-ac70-0fa8ea1f6edb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\db1773d9-c771-4c0b-87dc-492b3d306bfd.png",
+      "PackagePath": "staticwebassets\\images\\news\\db1773d9-c771-4c0b-87dc-492b3d306bfd.png"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\e1a8bf56-77be-4763-96e8-c98824179ce6.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\e1a8bf56-77be-4763-96e8-c98824179ce6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\George\\source\\repos\\NewsWeb\\NewsWebApi\\wwwroot\\images\\news\\ec9459c9-47c8-466c-af0c-4d6a1ac6bf37.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\ec9459c9-47c8-466c-af0c-4d6a1ac6bf37.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.NewsWebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.NewsWebApi.props",
+      "PackagePath": "build\\NewsWebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.NewsWebApi.props",
+      "PackagePath": "buildMultiTargeting\\NewsWebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.NewsWebApi.props",
+      "PackagePath": "buildTransitive\\NewsWebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,48 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">صفحة المسؤول عن الجريده</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass nav-scrollable d-flex flex-column justify-content-between" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> الصفحة الرئيسيه
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="News">
+                <span class="oi oi-plus" aria-hidden="true"></span> تصفح الاخبار
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="TopNews">
+                <span class="oi oi-plus" aria-hidden="true"></span> تصفح اهم الاخبار
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="AddNews">
+                <span class="oi oi-plus" aria-hidden="true"></span> اضافه خبر جديد
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="Sections">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> أداره الفئات
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="Admins">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> أداره المسؤولين
+            </NavLink>
+        </div>
+    </nav>
+    <div class="nav-item px-3">
+        <button class="btn btn-danger w-100" @onclick="SignOut">
+            تسجيل الخروج
+        </button>
+    </div>
+</div>

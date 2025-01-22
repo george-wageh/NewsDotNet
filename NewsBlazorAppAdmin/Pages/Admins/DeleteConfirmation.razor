@@ -1,0 +1,13 @@
+﻿<ComponentModel TItem="AdminModelDTO" Title="تاكيد حذف المسؤول" OnSaveChanges="OnSaveChanges">
+    <div>
+        <div class="my-2">
+            <div class="mx-1">#@Item.Id : @Item.Name</div>
+        </div>
+        <div class="my-2">
+            <div>الايميل : @Item.Email</div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button @onclick="()=>OnSaveChanges.InvokeAsync(Item)" class="btn btn-outline-danger m-2">حذف</button>
+        </div>
+    </div>
+</ComponentModel>

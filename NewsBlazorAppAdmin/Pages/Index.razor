@@ -1,0 +1,74 @@
+﻿@page "/"
+<h1 class="text-center mb-4">الرئيسية</h1>
+<div class="row g-4">
+    <!-- Box 1: تصفح الأخبار -->
+    <div class="col-md-3">
+        <a href="/News" class="text-decoration-none">
+            <div class="icon-box">
+                <i class="fas fa-newspaper"></i>
+                <h5 class="mt-3 text-dark">تصفح الأخبار</h5>
+            </div>
+        </a>
+    </div>
+
+    <!-- Box 2: إضافة خبر جديد -->
+    <div class="col-md-3">
+        <a href="/AddNews" class="text-decoration-none">
+            <div class="icon-box">
+                <i class="fas fa-plus-circle"></i>
+                <h5 class="mt-3 text-dark">إضافة خبر جديد</h5>
+            </div>
+        </a>
+    </div>
+
+    <!-- Box 3: تصفح أهم الأخبار -->
+    <div class="col-md-3">
+        <a href="/TopNews" class="text-decoration-none">
+            <div class="icon-box">
+                <i class="fas fa-star"></i>
+                <h5 class="mt-3 text-dark">تصفح أهم الأخبار</h5>
+            </div>
+        </a>
+    </div>
+
+    <!-- Box 4: إدارة الفئات -->
+    <div class="col-md-3">
+        <a href="/Sections" class="text-decoration-none">
+            <div class="icon-box">
+                <i class="fas fa-folder"></i>
+                <h5 class="mt-3 text-dark">إدارة الفئات</h5>
+            </div>
+        </a>
+    </div>
+
+    <!-- Box 4: إدارة المسؤولين -->
+    <div class="col-md-3">
+        <a href="/Admins" class="text-decoration-none">
+            <div class="icon-box">
+                <i class="fas fa-folder"></i>
+                <h5 class="mt-3 text-dark">إدارة المسؤولين</h5>
+            </div>
+        </a>
+    </div>
+</div>
+<style>
+    .icon-box {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+        .icon-box:hover {
+            transform: scale(1.05);
+            background-color: #e9ecef;
+        }
+
+        .icon-box i {
+            font-size: 2.5rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+</style>

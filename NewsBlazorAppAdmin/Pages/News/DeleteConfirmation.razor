@@ -1,0 +1,16 @@
+﻿<ComponentModel TItem="NewDTO" Title="تاكيد حذف المقاله" OnSaveChanges="OnSaveChanges">
+    <div>
+        <div class="my-2">
+            <div class="mx-1">#@Item.Id في @Item.Section</div>
+        </div>
+        <div class="my-2">
+            <div>عنوان المقاله : @Item.Title</div>
+        </div>
+        <div class="my-2">
+            <div><img src="@Item.Image" /></div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button @onclick="()=>OnSaveChanges.InvokeAsync(Item)" class="btn btn-outline-danger m-2">حذف</button>
+        </div>
+    </div>
+</ComponentModel>

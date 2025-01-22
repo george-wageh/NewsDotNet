@@ -1,0 +1,9 @@
+﻿<ComponentModel TItem="SectionDTO" Title="تعديل الفئه" OnSaveChanges="OnSaveChanges">
+    <EditForm Model="Item">
+        <label>الاسم الجديد</label>
+        <InputText id="newName" class="form-control" @bind-Value="Item.Name" style="width:fit-content;" />
+        <div class="text-center">
+            <button @onclick="()=>OnSaveChanges.InvokeAsync(Item)" class="btn btn-outline-success m-2">حفظ</button>
+        </div>
+    </EditForm>
+</ComponentModel>

@@ -1,0 +1,72 @@
+﻿@page "/News/{Id:int}"
+
+@if (NewDetailsDTO != null)
+{
+    <div class="d-flex flex-row align-content-center align-items-center">
+        <a class="sectionsClass" href="/News">الرئيسية</a>
+        <img height="22" src="arrowBread.png"/>
+        <a class="sectionsClass" href="/News?SectionId=@NewDetailsDTO.SectionId">@NewDetailsDTO.Section</a>
+    </div>
+    <h1 class="newsTitle">
+        @NewDetailsDTO.Title
+    </h1>
+    <span class="newsDate">@NewDetailsDTO.Date.ToString()</span>
+    <img class="newsImg mb-4" src="@NewDetailsDTO.Image" />
+    <div class="writer">
+        كتب @NewDetailsDTO.Author
+    </div>
+    <div class="newsContent my-2">
+        @NewDetailsDTO.Description
+    </div>
+}
+<style>
+    .sectionsClass {
+        margin: 10px;
+        color: #df2829;
+        font-family: 'Droid Arabic Kufi';
+        font-size: 19px;
+        text-decoration:none;
+
+    }
+    .newsTitle{
+        line-height: 31px;
+        color: #df2829;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin: 0px;
+        padding: 14px 0;
+        font-weight: bold;
+    }
+
+    .newsDate{
+        color: #666;
+        display: block;
+        font-size: 11px;
+        font-weight: 700;
+        padding:5px;
+    }
+    .newsImg{
+        border: 1px solid #666;
+        width: 500px;
+        display: block;
+    }
+
+    .writer{
+        color: #df2829 !important;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .newsContent{
+        color: #333;
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        line-height: 28px !important;
+        text-align: justify !important;
+        white-space: pre-wrap;
+    }
+</style>

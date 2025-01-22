@@ -1,0 +1,21 @@
+﻿@if (News != null)
+{
+    <div class="NewNewsSectionHead">@SectionName</div>
+    @foreach (var item in News)
+    {
+        <NewComponent item="item" ></NewComponent>
+        <div class="BtnsContainer">
+            @if (!item.IsInTopNews)
+            {
+                <button @onclick="()=>OnAddToTop15.InvokeAsync(item.Id)" class="btn btn-primary m-1">اضف الي اهم الاحداث </button>
+            }
+            else
+            {
+                <button @onclick="()=>OnDeleteToTop15.InvokeAsync(item.Id)" class="btn btn-danger m-1">حذف من اهم الاحداث </button>
+            }
+            <a href="/EditNews/@item.Id" class="btn btn-warning m-1">تعديل المقاله</a>
+            <button @onclick="()=>OnDeleteNews.InvokeAsync(item)" class="btn btn-danger m-1">حذف المقاله</button>
+        </div>
+
+    }
+}

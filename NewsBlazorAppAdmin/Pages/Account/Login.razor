@@ -1,0 +1,46 @@
+﻿@page "/login"
+@layout NoLayout
+@using Microsoft.AspNetCore.Components;
+@if (message != null)
+{
+    <MessageAlert Message="message" />
+}
+@if (sentEmail == true)
+{
+    <div class="shadow-sm py-4 border border-1">
+        <h4 class="text-center">Login page</h4>
+
+        <EditForm Model="this.UserLogin" OnValidSubmit="ValidSubmit">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="m-2">
+                <label for="email"> الايميل: </label>
+                <InputText class="form-control" typeof="email" id="email" @bind-Value="this.UserLogin.Email"></InputText>
+                <ValidationMessage For="()=>UserLogin.Email"></ValidationMessage>
+            </div>
+            <div class="m-2">
+                <label for="password"> كلمه المرور: </label>
+                <InputText class="form-control" type="password" id="password" @bind-Value="this.UserLogin.Password"></InputText>
+                <ValidationMessage For="()=>UserLogin.Password"></ValidationMessage>
+            </div>
+            <div class="m-2 text-center">
+                <button type="submit" class="btn btn-primary">تسجيل الدخول</button>
+            </div>
+        </EditForm>
+
+    </div>
+
+}
+else
+{
+    <div class="shadow-sm py-4 border border-1">
+        <h4 class="text-center">Send password to email</h4>
+        <div class="m-2">
+            <label for="email"> الايميل: </label>
+            <input class="form-control" typeof="email" id="email" @bind-value="AdminEmail"/>
+        </div>
+        <div class="m-2 text-center">
+            <button @onclick="SendEmail" type="submit" class="btn btn-primary">ارسال كلمه المرور عبر الايميل</button>
+        </div>
+    </div>
+}

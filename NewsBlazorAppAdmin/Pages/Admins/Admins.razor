@@ -1,0 +1,69 @@
+﻿@page "/Admins"
+<h3>المسؤولين</h3>
+@if (Message != null)
+{
+    <MessageAlert Message="Message"></MessageAlert>
+}
+@if (admins != null && admins.Any())
+{
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>الاسم</th>
+                <th>الايميل</th>
+                <th>الادوار</th>
+                <th>-</th>
+                <th>-</th>
+                <th>-</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var admin in admins)
+            {
+                <tr>
+                    <td>@admin.Id</td>
+                    <td>@admin.Name</td>
+                    <td>@admin.Email</td>
+                    <td>@admin.Roles.Aggregate("" , (s , x)=>s + (x.ToString() + ","))</td>
+                    <td><button @onclick="()=>OpenEdit(admin.Id)" class="btn btn-warning">تعديل المسؤول</button></td>
+                    <td><button @onclick="()=>OpenDelete(admin.Id)" class="btn btn-danger">مسح المسؤول</button></td>
+                    @if (admin.Roles.Contains("admin"))
+                    {
+                        <td><button @onclick="()=>RemoveFromRole(admin.Email)" class="btn btn-danger">الازاله ك مسؤول</button></td>
+                    }
+                    else
+                    {
+                        <td><button @onclick="()=>AddToRole(admin.Email)" class="btn btn-primary">تعيين ك مسؤول</button></td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No admins found.</p>
+}
+
+<div class="text-lg-center">
+    <button type="button" @onclick="()=>OpenAdd()" class="btn btn-primary">
+        اضافة مسؤول جديد
+    </button>
+</div>
+
+@if (ModelToAdd!=null)
+{
+    <AddAdmin Item="ModelToAdd" OnSaveChanges="onSaveAdd"></AddAdmin>
+}
+
+
+@if (ModelToEdit != null)
+{
+    <EditAdmin Item="ModelToEdit" OnSaveChanges="onSaveEdit"></EditAdmin>
+}
+
+@if (ModelToDelete != null)
+{
+    <DeleteConfirmation Item="ModelToDelete" OnSaveChanges="onSaveDelete"></DeleteConfirmation>
+}

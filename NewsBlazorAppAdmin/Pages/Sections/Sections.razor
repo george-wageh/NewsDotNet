@@ -1,0 +1,54 @@
+﻿@page "/Sections"
+<h3>الفئات</h3>
+@if(message!=null){
+    <MessageAlert Message="message"></MessageAlert>
+}
+@if (sectionDTOs == null || !sectionDTOs.Any())
+{
+    <p>الفئات فارغه</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>الاسم</th>
+                <th>-</th>
+                <th>-</th>
+                <th>-</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in sectionDTOs)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td><button @onclick="()=>OpenEdit(item.Id)" class="btn btn-warning">تعديل</button></td>
+                    <td>
+                        <button class="btn btn-warning m-1" @onclick="()=>SetUp(item.Id)">الي اعلي</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger m-1" @onclick="()=>SetDown(item.Id)">الي اسفل</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@if (ModelToEdit != null)
+{
+    <EditSection Item="ModelToEdit" OnSaveChanges="onSaveEdit"></EditSection>
+}
+
+<div class="text-lg-center">
+    <button type="button" @onclick="()=>OpenAdd()" class="btn btn-primary">
+        اضافة فئه جديده
+    </button>
+</div>
+
+@if (ModelToAdd!=null)
+{
+    <AddSection Item="ModelToAdd" OnSaveChanges="onSaveAdd"></AddSection>
+}

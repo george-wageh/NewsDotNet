@@ -1,0 +1,13 @@
+﻿@if (News != null)
+{
+    <div class="NewNewsSectionHead">اهم الاخبار</div>
+    @foreach (var item in News)
+    {
+        <NewComponent item="item" ></NewComponent>
+        <div class="BtnsContainer">
+            <button @onclick="()=> OnDelete.InvokeAsync(item.Id)" class="btn btn-danger m-1">حذف من اهم الاحداث </button>
+            <button class="btn btn-warning m-1"@onclick="()=>OnSetUp.InvokeAsync(item.Id)">الي اعلي</button>
+            <button class="btn btn-danger m-1" @onclick="()=>OnSetDown.InvokeAsync(item.Id)">الي اسفل</button>
+        </div>
+    }
+}

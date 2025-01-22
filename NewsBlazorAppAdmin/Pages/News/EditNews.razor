@@ -1,0 +1,64 @@
+﻿@page "/EditNews/{Id:int}"
+@if (sectionDTOs?.Count() > 0 && EditNewsDTO!=null)
+{
+    <h2>تعديل مقاله</h2>
+    <EditForm Model="EditNewsDTO" OnValidSubmit="OnValidSubmit">
+        <DataAnnotationsValidator/>
+        <ValidationSummary/>
+        <div class="m-2">
+            <label class="form-label">عنوان الخبر</label>
+            <ValidationMessage For="()=>EditNewsDTO.Title"></ValidationMessage>
+            <InputText class="form-control" @bind-Value="@EditNewsDTO.Title"></InputText>
+
+        </div>
+
+        <div class="m-2">
+            <label>محتوي الخبر</label>
+            <ValidationMessage For="()=>EditNewsDTO.Description"></ValidationMessage>
+            <InputTextArea class="form-control" @bind-Value="@EditNewsDTO.Description"></InputTextArea>
+        </div>
+
+        <div class="m-2">
+            <label class="form-label">صورة الخبر</label>
+            <div>
+                <ValidationMessage For="()=>EditNewsDTO.Image"></ValidationMessage>
+                <InputFile OnChange="OnChangeFile"></InputFile>
+                <input class="btn btn-primary" type="button" value="رفع الصوره" @onclick="UploadImage" />
+                <img class="newsImage" src="@EditNewsDTO.Image" />
+                الصوره سوف تظهر بعد رفع الصوره
+            </div>
+        </div>
+        <div class="m-2">
+            <label class="form-label">كاتب الخبر</label>
+            <ValidationMessage For="()=>EditNewsDTO.Author"></ValidationMessage>
+            <InputText class="form-control" @bind-Value="@EditNewsDTO.Author"></InputText>
+        </div>
+
+        <div class="m-2">
+            <label class="form-label">الفئه</label>
+            <ValidationMessage For="()=>EditNewsDTO.SectionId"></ValidationMessage>
+            <select @bind="EditNewsDTO.SectionId" class="form-select">
+                <option value="">اختر فئة</option>
+                @foreach (var item in sectionDTOs)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">أرسال</button>
+    </EditForm>
+
+}
+else
+{
+    <div>جاري تحميل الصفحه</div>
+}
+
+<style>
+    .newsImage {
+        width: 378px;
+        height: 243px;
+        object-fit: contain;
+        border: 1px black solid;
+    }
+</style>

@@ -1,0 +1,24 @@
+.NewNewsSectionContainer[b-mnp97jhjqz] {
+    border: 1px #2a00f4  solid;
+    margin-top: 4px;
+}
+
+
+
+
+.NewNewsSectionImg[b-mnp97jhjqz] {
+    width: 225px;
+    height: 130px;
+    object-fit: contain;
+    border-left: 1px #000000 solid;
+}
+
+.NewNewsSectionTitle[b-mnp97jhjqz] {
+    font-family: 'Droid Arabic Kufi', Tahoma;
+    color: #000000;
+    text-align: right;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px;
+    width:100%;
+}

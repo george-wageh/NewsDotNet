@@ -1,0 +1,71 @@
+﻿@page "/News"
+@if (SectionsOptions != null)
+{
+    <div class="d-flex flex-column align-content-center">
+        <div class="m-2 d-flex flex-row">
+            <label class="form-label mx-2">فئه: </label>
+            <select @bind="NewsQuery.SectionId" class="form-select">
+                <option value="0">كل الفئات</option>
+                @foreach (var item in SectionsOptions)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
+            </select>
+        </div>
+        <div class="d-flex flex-row m-2">
+            <label class="form-label mx-2">بحث: </label>
+            <input @bind-value="NewsQuery.QString" class="form-control" type="search" />
+        </div>
+        <div class="text-center my-3">
+            <button @onclick="Search" class="btn btn-primary">بحث</button>
+        </div>
+    </div>
+
+}
+
+@if (News?.Count() > 0)
+{
+    <div>
+        <NewsComponent SectionName="@sectionName" News="News" OnDeleteNews="OpenToDelete" OnAddToTop15="OnAddToTop15" OnDeleteToTop15="OnDeleteToTop15"></NewsComponent>
+    </div>
+    <div class="d-flex flex-row justify-content-center">
+        @for(int i = 0; i < pagesCount && i<10; i++)
+        {
+            var pageNum_ = i + 1;
+            <button @onclick="()=>ChangePage(pageNum_)" class="btn pagesbtn">@(pageNum_.ToString())</button>
+        }
+        @if (pagesCount > 10)
+        {
+            <div style="font-size:x-large;">. . .</div>
+            <button @onclick="()=>ChangePage(pagesCount)" class="btn pagesbtn">@((pagesCount).ToString())</button>
+        }
+    </div>
+}
+else if (News != null)
+{
+    <div>لم يوجد مقالات في هذه الفئه</div>
+}
+else
+{
+    <biv>Loading</biv>
+}
+@if (ModelToDelete != null)
+{
+    <DeleteConfirmation Item="ModelToDelete" OnSaveChanges="OnDeleteModel"></DeleteConfirmation>
+}
+<style>
+    .pagesbtn{
+        width:35px;
+        height:40px;
+        margin:4px;
+        background-color: #221556;
+        color:#fff;
+        text-align:center;
+        padding: 8px;
+        border:1px solid black;
+    }
+    .pagesbtn:hover{
+            background-color: #965556;
+            color:#100000;
+    }
+</style>

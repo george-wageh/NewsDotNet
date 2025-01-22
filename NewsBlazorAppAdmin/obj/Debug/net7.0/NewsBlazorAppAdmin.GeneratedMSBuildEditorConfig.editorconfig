@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = NewsBlazorAppAdmin
+build_property.RootNamespace = NewsBlazorAppAdmin
+build_property.ProjectDir = C:\Users\George\source\repos\NewsWeb\NewsBlazorAppAdmin\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\George\source\repos\NewsWeb\NewsBlazorAppAdmin
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/Account/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/Admins/AddAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5zXEFkZEFkbWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/Admins/Admins.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5zXEFkbWlucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/Admins/DeleteConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5zXERlbGV0ZUNvbmZpcm1hdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/Admins/EditAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5zXEVkaXRBZG1pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/News/AddNews.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xBZGROZXdzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/News/DeleteConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xEZWxldGVDb25maXJtYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/News/EditNews.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xFZGl0TmV3cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/News/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/News/NewsDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xOZXdzRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/Sections/AddSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjdGlvbnNcQWRkU2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/Sections/EditSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjdGlvbnNcRWRpdFNlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/Sections/Sections.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjdGlvbnNcU2VjdGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/TopNews/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9wTmV3c1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Shared/ComponentModel.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudE1vZGVsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Shared/MessageAlert.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1lc3NhZ2VBbGVydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Shared/NoLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/NewComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-mnp97jhjqz
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/News/NewsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xOZXdzQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-3wbfnybxuj
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Pages/TopNews/NewsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9wTmV3c1xOZXdzQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-n1swebvlio
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-x9s1n21zdz
+
+[C:/Users/George/source/repos/NewsWeb/NewsBlazorAppAdmin/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6d2j236mrf

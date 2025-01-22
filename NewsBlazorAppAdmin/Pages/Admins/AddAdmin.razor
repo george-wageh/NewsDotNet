@@ -1,0 +1,15 @@
+﻿<ComponentModel TItem="AdminModelDTO" Title="اضافة مسؤول جديد" OnSaveChanges="OnSaveChanges">
+    <div>
+        <div class="mb-3">
+            <label for="SectionName" class="form-label"> اسم المسؤول</label>
+            <input type="text" id="SectionName" class="form-control" formControlName="SectionName" @bind-value="Item.Name" />
+        </div>
+        <div class="mb-3">
+            <label for="SectionName" class="form-label"> الايميل الالكتروني</label>
+            <input type="text" id="SectionName" class="form-control" formControlName="SectionName" @bind-value="Item.Email" />
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary" @onclick="()=>OnSaveChanges.InvokeAsync(Item)">حفظ</button>
+        </div>
+    </div>
+</ComponentModel>

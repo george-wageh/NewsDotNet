@@ -1,0 +1,11 @@
+C:\Users\George\source\repos\NewsWeb\SharedLib\bin\Debug\net7.0\SharedLib.deps.json
+C:\Users\George\source\repos\NewsWeb\SharedLib\bin\Debug\net7.0\SharedLib.dll
+C:\Users\George\source\repos\NewsWeb\SharedLib\bin\Debug\net7.0\SharedLib.pdb
+C:\Users\George\source\repos\NewsWeb\SharedLib\obj\Debug\net7.0\SharedLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\George\source\repos\NewsWeb\SharedLib\obj\Debug\net7.0\SharedLib.AssemblyInfoInputs.cache
+C:\Users\George\source\repos\NewsWeb\SharedLib\obj\Debug\net7.0\SharedLib.AssemblyInfo.cs
+C:\Users\George\source\repos\NewsWeb\SharedLib\obj\Debug\net7.0\SharedLib.csproj.CoreCompileInputs.cache
+C:\Users\George\source\repos\NewsWeb\SharedLib\obj\Debug\net7.0\SharedLib.dll
+C:\Users\George\source\repos\NewsWeb\SharedLib\obj\Debug\net7.0\refint\SharedLib.dll
+C:\Users\George\source\repos\NewsWeb\SharedLib\obj\Debug\net7.0\SharedLib.pdb
+C:\Users\George\source\repos\NewsWeb\SharedLib\obj\Debug\net7.0\ref\SharedLib.dll
