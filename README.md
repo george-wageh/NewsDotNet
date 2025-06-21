@@ -94,64 +94,68 @@
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/01.png"/>
+    <img src="https://george-wageh.github.io/portfolio/projects/NewsApp/01.png"/>
 </div>
 
 <br />
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/02.png"/>
+    <img src="https://george-wageh.github.io/portfolio/projects/NewsApp/02.png"/>
 </div>
 
 <br />
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/03.png"/>
+    <img src="https://george-wageh.github.io/portfolio/projects/NewsApp/03.png"/>
 </div>
 
 <br />
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/04.png"/>
+    <img src="https://george-wageh.github.io/portfolio/projects/NewsApp/04.png"/>
 </div>
 
 <br />
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/05.png"/>
+    <img src="https://george-wageh.github.io/portfolio/projects/NewsApp/05.png"/>
 </div>
 
 <br />
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/06.png"/>
+    <img src="https://george-wageh.github.io/portfolio/projects/NewsApp/06.png"/>
 </div>
 
 <br />
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/07.png"/>
+    <img src="https://george-wageh.github.io/portfolio/projects/NewsApp/07.png"/>
 </div>
 
 <br />
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/08.png"/>
+    <img src="https://george-wageh.github.io/portfolio/projects/NewsApp/08.png"/>
 </div>
 
 <br />
 <br />
 
 <div>
-    <img src="https://george-wageh.github.io/GeorgePortfolio/projects/NewsApp/09.png"/>
+    <img src="https://george-wageh.github.io/portfolio/projects/NewsApp/09.png"/>
 </div>
 
 <br />
 <br />
+
+## View more projects:
+https://george-wageh.github.io/portfolio/projects
+
